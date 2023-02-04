@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26619CD3298E7F48008987D0 /* nfc_mifareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26619CD2298E7F48008987D0 /* nfc_mifareApp.swift */; };
+		26619CD5298E7F48008987D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26619CD4298E7F48008987D0 /* ContentView.swift */; };
+		26619CD7298E7F49008987D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26619CD6298E7F49008987D0 /* Assets.xcassets */; };
+		26619CDA298E7F49008987D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26619CD9298E7F49008987D0 /* Preview Assets.xcassets */; };
+		26619CE4298E7F49008987D0 /* nfc_mifareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26619CE3298E7F49008987D0 /* nfc_mifareTests.swift */; };
+		26619CEE298E7F49008987D0 /* nfc_mifareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26619CED298E7F49008987D0 /* nfc_mifareUITests.swift */; };
+		26619CF0298E7F49008987D0 /* nfc_mifareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26619CEF298E7F49008987D0 /* nfc_mifareUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26619CE0298E7F49008987D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26619CC7298E7F48008987D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26619CCE298E7F48008987D0;
+			remoteInfo = nfc_mifare;
+		};
+		26619CEA298E7F49008987D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26619CC7298E7F48008987D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26619CCE298E7F48008987D0;
+			remoteInfo = nfc_mifare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26619CCF298E7F48008987D0 /* nfc_mifare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nfc_mifare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26619CD2298E7F48008987D0 /* nfc_mifareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nfc_mifareApp.swift; sourceTree = "<group>"; };
+		26619CD4298E7F48008987D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		26619CD6298E7F49008987D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26619CD9298E7F49008987D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26619CDF298E7F49008987D0 /* nfc_mifareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nfc_mifareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26619CE3298E7F49008987D0 /* nfc_mifareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nfc_mifareTests.swift; sourceTree = "<group>"; };
+		26619CE9298E7F49008987D0 /* nfc_mifareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nfc_mifareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26619CED298E7F49008987D0 /* nfc_mifareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nfc_mifareUITests.swift; sourceTree = "<group>"; };
+		26619CEF298E7F49008987D0 /* nfc_mifareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nfc_mifareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26619CCC298E7F48008987D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26619CDC298E7F49008987D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26619CE6298E7F49008987D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26619CC6298E7F48008987D0 = {
+			isa = PBXGroup;
+			children = (
+				26619CD1298E7F48008987D0 /* nfc_mifare */,
+				26619CE2298E7F49008987D0 /* nfc_mifareTests */,
+				26619CEC298E7F49008987D0 /* nfc_mifareUITests */,
+				26619CD0298E7F48008987D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26619CD0298E7F48008987D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26619CCF298E7F48008987D0 /* nfc_mifare.app */,
+				26619CDF298E7F49008987D0 /* nfc_mifareTests.xctest */,
+				26619CE9298E7F49008987D0 /* nfc_mifareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26619CD1298E7F48008987D0 /* nfc_mifare */ = {
+			isa = PBXGroup;
+			children = (
+				26619CD2298E7F48008987D0 /* nfc_mifareApp.swift */,
+				26619CD4298E7F48008987D0 /* ContentView.swift */,
+				26619CD6298E7F49008987D0 /* Assets.xcassets */,
+				26619CD8298E7F49008987D0 /* Preview Content */,
+			);
+			path = nfc_mifare;
+			sourceTree = "<group>";
+		};
+		26619CD8298E7F49008987D0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				26619CD9298E7F49008987D0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		26619CE2298E7F49008987D0 /* nfc_mifareTests */ = {
+			isa = PBXGroup;
+			children = (
+				26619CE3298E7F49008987D0 /* nfc_mifareTests.swift */,
+			);
+			path = nfc_mifareTests;
+			sourceTree = "<group>";
+		};
+		26619CEC298E7F49008987D0 /* nfc_mifareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26619CED298E7F49008987D0 /* nfc_mifareUITests.swift */,
+				26619CEF298E7F49008987D0 /* nfc_mifareUITestsLaunchTests.swift */,
+			);
+			path = nfc_mifareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26619CCE298E7F48008987D0 /* nfc_mifare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26619CF3298E7F49008987D0 /* Build configuration list for PBXNativeTarget "nfc_mifare" */;
+			buildPhases = (
+				26619CCB298E7F48008987D0 /* Sources */,
+				26619CCC298E7F48008987D0 /* Frameworks */,
+				26619CCD298E7F48008987D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nfc_mifare;
+			productName = nfc_mifare;
+			productReference = 26619CCF298E7F48008987D0 /* nfc_mifare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26619CDE298E7F49008987D0 /* nfc_mifareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26619CF6298E7F49008987D0 /* Build configuration list for PBXNativeTarget "nfc_mifareTests" */;
+			buildPhases = (
+				26619CDB298E7F49008987D0 /* Sources */,
+				26619CDC298E7F49008987D0 /* Frameworks */,
+				26619CDD298E7F49008987D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26619CE1298E7F49008987D0 /* PBXTargetDependency */,
+			);
+			name = nfc_mifareTests;
+			productName = nfc_mifareTests;
+			productReference = 26619CDF298E7F49008987D0 /* nfc_mifareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26619CE8298E7F49008987D0 /* nfc_mifareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26619CF9298E7F49008987D0 /* Build configuration list for PBXNativeTarget "nfc_mifareUITests" */;
+			buildPhases = (
+				26619CE5298E7F49008987D0 /* Sources */,
+				26619CE6298E7F49008987D0 /* Frameworks */,
+				26619CE7298E7F49008987D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26619CEB298E7F49008987D0 /* PBXTargetDependency */,
+			);
+			name = nfc_mifareUITests;
+			productName = nfc_mifareUITests;
+			productReference = 26619CE9298E7F49008987D0 /* nfc_mifareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26619CC7298E7F48008987D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					26619CCE298E7F48008987D0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					26619CDE298E7F49008987D0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 26619CCE298E7F48008987D0;
+					};
+					26619CE8298E7F49008987D0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 26619CCE298E7F48008987D0;
+					};
+				};
+			};
+			buildConfigurationList = 26619CCA298E7F48008987D0 /* Build configuration list for PBXProject "nfc_mifare" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26619CC6298E7F48008987D0;
+			productRefGroup = 26619CD0298E7F48008987D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26619CCE298E7F48008987D0 /* nfc_mifare */,
+				26619CDE298E7F49008987D0 /* nfc_mifareTests */,
+				26619CE8298E7F49008987D0 /* nfc_mifareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26619CCD298E7F48008987D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26619CDA298E7F49008987D0 /* Preview Assets.xcassets in Resources */,
+				26619CD7298E7F49008987D0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26619CDD298E7F49008987D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26619CE7298E7F49008987D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26619CCB298E7F48008987D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26619CD5298E7F48008987D0 /* ContentView.swift in Sources */,
+				26619CD3298E7F48008987D0 /* nfc_mifareApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26619CDB298E7F49008987D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26619CE4298E7F49008987D0 /* nfc_mifareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26619CE5298E7F49008987D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26619CF0298E7F49008987D0 /* nfc_mifareUITestsLaunchTests.swift in Sources */,
+				26619CEE298E7F49008987D0 /* nfc_mifareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26619CE1298E7F49008987D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26619CCE298E7F48008987D0 /* nfc_mifare */;
+			targetProxy = 26619CE0298E7F49008987D0 /* PBXContainerItemProxy */;
+		};
+		26619CEB298E7F49008987D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26619CCE298E7F48008987D0 /* nfc_mifare */;
+			targetProxy = 26619CEA298E7F49008987D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26619CF1298E7F49008987D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26619CF2298E7F49008987D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26619CF4298E7F49008987D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nfc_mifare/Preview Content\"";
+				DEVELOPMENT_TEAM = TY5MP5U6AA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.brhaka.nfc-mifare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26619CF5298E7F49008987D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nfc_mifare/Preview Content\"";
+				DEVELOPMENT_TEAM = TY5MP5U6AA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.brhaka.nfc-mifare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26619CF7298E7F49008987D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TY5MP5U6AA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.brhaka.nfc-mifareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nfc_mifare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nfc_mifare";
+			};
+			name = Debug;
+		};
+		26619CF8298E7F49008987D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TY5MP5U6AA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.brhaka.nfc-mifareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nfc_mifare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nfc_mifare";
+			};
+			name = Release;
+		};
+		26619CFA298E7F49008987D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TY5MP5U6AA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.brhaka.nfc-mifareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nfc_mifare;
+			};
+			name = Debug;
+		};
+		26619CFB298E7F49008987D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TY5MP5U6AA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.brhaka.nfc-mifareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nfc_mifare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26619CCA298E7F48008987D0 /* Build configuration list for PBXProject "nfc_mifare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26619CF1298E7F49008987D0 /* Debug */,
+				26619CF2298E7F49008987D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26619CF3298E7F49008987D0 /* Build configuration list for PBXNativeTarget "nfc_mifare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26619CF4298E7F49008987D0 /* Debug */,
+				26619CF5298E7F49008987D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26619CF6298E7F49008987D0 /* Build configuration list for PBXNativeTarget "nfc_mifareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26619CF7298E7F49008987D0 /* Debug */,
+				26619CF8298E7F49008987D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26619CF9298E7F49008987D0 /* Build configuration list for PBXNativeTarget "nfc_mifareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26619CFA298E7F49008987D0 /* Debug */,
+				26619CFB298E7F49008987D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26619CC7298E7F48008987D0 /* Project object */;
+}
